@@ -1,8 +1,3 @@
-/*
-	Read Only by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 (function($) {
 
@@ -160,23 +155,6 @@
 
 /* Add move to top functionality */
 (function(){
-	// // Back to Top button functionality
-	// var backToTopButton = document.getElementById("btnBackToTop");
-	
-	// window.onscroll = function() {
-	// 	if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
-	// 		backToTopButton.style.display = "block";
-	// 	} else {
-	// 		backToTopButton.style.display = "none";
-	// 	}
-	// };
-	
-	// backToTopButton.onclick = function() {
-	// 	window.scrollTo({
-	// 		top: 0,
-	// 		behavior: 'smooth'
-	// 	});
-	// };
 
     var backToTopButton = document.getElementById("btnBackToTop");
     var header = document.getElementById("header");
@@ -206,7 +184,7 @@
     }
 
     function updateBackToTopVisibility() {
-        if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+        if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
             backToTopButton.style.display = "block";
         } else {
             backToTopButton.style.display = "none";

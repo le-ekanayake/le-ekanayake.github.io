@@ -1,12 +1,6 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
 
-/*
-	Read Only by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -1704,6 +1698,28 @@ input, select, textarea {
 
 		}
 
+/* Navigation Bar */
+	.navbar{
+		/* Semi-transparent background */
+		background: repeating-linear-gradient(to bottom right
+						, rgba(255, 255, 255, 0.1) 0%
+						, rgba(255, 255, 255, 0.3) 20%
+						, rgba(255, 255, 255, 0.3) 30%
+						, rgba(255, 255, 255, 0.1) 50%
+											 );
+		/* Blur effect */
+		backdrop-filter: blur(10px);
+		/* Shadow effect */
+		box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	}
+
+		.navbar > a {
+			margin-right: 1em;
+		}
+		.navbar > a:last-child {
+			margin-right: 0;
+		}
+
 /* Container */
 
 	.container {
@@ -2753,7 +2769,7 @@ input, select, textarea {
 		}
 
 		#header a {
-			color: #d2f2e9;
+			color: #555;
 		}
 
 			#header a:hover {
